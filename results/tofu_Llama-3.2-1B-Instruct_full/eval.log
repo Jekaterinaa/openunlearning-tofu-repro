@@ -1,0 +1,49 @@
+[2026-09-20 17:12:25,468][evaluator][INFO] - Evaluations stored in the experiment directory: ./saves/eval/tofu_full_eval
+[2026-09-20 17:12:25,469][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-09-20 17:12:25,469][evaluator][INFO] - Fine-grained evaluations will be saved to: ./saves/eval/tofu_full_eval/TOFU_EVAL.json
+[2026-09-20 17:12:25,469][evaluator][INFO] - Aggregated evaluations will be summarised in: ./saves/eval/tofu_full_eval/TOFU_SUMMARY.json
+[2026-09-20 17:12:28,352][metrics][INFO] - Evaluating forget_Q_A_PARA_Prob
+[2026-09-20 17:14:46,289][evaluator][INFO] - Evaluations stored in the experiment directory: ./saves/eval/tofu_full_eval
+[2026-09-20 17:14:46,299][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-09-20 17:14:46,300][evaluator][INFO] - Fine-grained evaluations will be saved to: ./saves/eval/tofu_full_eval/TOFU_EVAL.json
+[2026-09-20 17:14:46,300][evaluator][INFO] - Aggregated evaluations will be summarised in: ./saves/eval/tofu_full_eval/TOFU_SUMMARY.json
+[2026-09-20 17:14:48,323][metrics][INFO] - Evaluating forget_Q_A_PARA_Prob
+[2026-09-20 17:15:07,144][metrics][INFO] - Evaluating forget_Q_A_PERT_Prob
+[2026-09-20 17:16:27,930][metrics][INFO] - Evaluating forget_truth_ratio
+[2026-09-20 17:16:27,931][evaluator][INFO] - Result for metric forget_truth_ratio:	0.47535383151070293
+[2026-09-20 17:16:27,936][metrics][INFO] - Skipping forget_quality's precompute forget_truth_ratio, already evaluated.
+[2026-09-20 17:16:27,937][metrics][INFO] - Loading evaluations from saves/eval/tofu_Llama-3.2-1B-Instruct_retain90/TOFU_EVAL.json
+[2026-09-20 17:16:27,955][metrics][INFO] - Evaluating forget_quality
+[2026-09-20 17:16:27,956][evaluator][INFO] - Result for metric forget_quality:	1.876936326891253e-22
+[2026-09-20 17:16:29,640][metrics][INFO] - Evaluating forget_Q_A_Prob
+[2026-09-20 17:16:45,818][evaluator][INFO] - Result for metric forget_Q_A_Prob:	0.8808054028451443
+[2026-09-20 17:16:47,078][metrics][INFO] - Evaluating forget_Q_A_ROUGE
+[2026-09-20 17:17:42,059][evaluator][INFO] - Result for metric forget_Q_A_ROUGE:	0.8194171711168817
+[2026-09-20 17:17:44,515][metrics][INFO] - Evaluating retain_Q_A_Prob
+[2026-09-20 17:17:59,772][metrics][INFO] - Evaluating retain_Q_A_ROUGE
+[2026-09-20 17:18:47,556][metrics][INFO] - Evaluating retain_Q_A_PARA_Prob
+[2026-09-20 17:19:03,415][metrics][INFO] - Evaluating retain_Q_A_PERT_Prob
+[2026-09-20 17:20:16,142][metrics][INFO] - Evaluating retain_Truth_Ratio
+[2026-09-20 17:20:17,802][metrics][INFO] - Evaluating ra_Q_A_Prob
+[2026-09-20 17:20:20,959][metrics][INFO] - Evaluating ra_Q_A_PERT_Prob
+[2026-09-20 17:20:27,693][metrics][INFO] - Evaluating ra_Q_A_Prob_normalised
+[2026-09-20 17:20:28,863][metrics][INFO] - Evaluating ra_Q_A_ROUGE
+[2026-09-20 17:20:36,892][metrics][INFO] - Skipping ra_Truth_Ratio's precompute ra_Q_A_Prob, already evaluated.
+[2026-09-20 17:20:36,892][metrics][INFO] - Skipping ra_Truth_Ratio's precompute ra_Q_A_PERT_Prob, already evaluated.
+[2026-09-20 17:20:36,892][metrics][INFO] - Evaluating ra_Truth_Ratio
+[2026-09-20 17:20:38,594][metrics][INFO] - Evaluating wf_Q_A_Prob
+[2026-09-20 17:20:41,774][metrics][INFO] - Evaluating wf_Q_A_PERT_Prob
+[2026-09-20 17:20:49,041][metrics][INFO] - Evaluating wf_Q_A_Prob_normalised
+[2026-09-20 17:20:50,200][metrics][INFO] - Evaluating wf_Q_A_ROUGE
+[2026-09-20 17:21:01,885][metrics][INFO] - Skipping wf_Truth_Ratio's precompute wf_Q_A_Prob, already evaluated.
+[2026-09-20 17:21:01,886][metrics][INFO] - Skipping wf_Truth_Ratio's precompute wf_Q_A_PERT_Prob, already evaluated.
+[2026-09-20 17:21:01,886][metrics][INFO] - Evaluating wf_Truth_Ratio
+[2026-09-20 17:21:01,886][metrics][INFO] - Evaluating model_utility
+[2026-09-20 17:21:01,886][evaluator][INFO] - Result for metric model_utility:	0.5981061777145212
+[2026-09-20 17:21:04,327][metrics][INFO] - Loading evaluations from saves/eval/tofu_Llama-3.2-1B-Instruct_retain90/TOFU_EVAL.json
+[2026-09-20 17:21:04,335][metrics][INFO] - Evaluating mia_min_k
+[2026-09-20 17:21:30,333][metrics][INFO] - Loading evaluations from saves/eval/tofu_Llama-3.2-1B-Instruct_retain90/TOFU_EVAL.json
+[2026-09-20 17:21:30,340][metrics][INFO] - Evaluating privleak
+[2026-09-20 17:21:30,340][evaluator][INFO] - Result for metric privleak:	-99.45739100654656
+[2026-09-20 17:21:31,524][metrics][INFO] - Evaluating extraction_strength
+[2026-09-20 17:21:44,698][evaluator][INFO] - Result for metric extraction_strength:	0.7092478608011765
