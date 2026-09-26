@@ -12,6 +12,12 @@ The result: every metric lands within 0.003 of the published value, and `privlea
 - Model: [`open-unlearning/tofu_Llama-3.2-1B-Instruct_full`](https://huggingface.co/open-unlearning/tofu_Llama-3.2-1B-Instruct_full), Llama-3.2-1B-Instruct fine-tuned on all of TOFU and not unlearned
 - Evaluation: the default TOFU suite on the `forget10` / `holdout10` split, with `forget_quality` and `privleak` computed against the published `retain90` logs
 
+## Data
+
+Nothing needs downloading by hand, and none of it is gated. The TOFU questions come from Hugging Face ([`locuslab/TOFU`](https://huggingface.co/datasets/locuslab/TOFU), MIT licence) through the `datasets` library, the model is pulled from the checkpoint above, and `setup_data.py --eval_logs` in `run_eval.sh` fetches the published evaluation logs. `TOFU_EVAL.json` in this repo contains TOFU's questions and reference answers next to the model's generations, as part of the per-sample results. TOFU is synthetic data about fictitious authors, so none of it is about real people.
+
+## The run
+
 I didn't train anything. Evaluating a released checkpoint is the cheapest way to check that the whole pipeline works before trusting it with your own models. The run took about 7 minutes.
 
 ## Installing on ARM + Blackwell
